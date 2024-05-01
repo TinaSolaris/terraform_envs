@@ -1,5 +1,5 @@
-# Valentina Bolbas - Elastic Beanstalk and Fargate
-This projects aims to create a certain AWS infrastructures via Terraform (infrastructure as code). Using Elastic Beanstalk or Elastic Container Service (Fargate) the application that consists of separate backend and frontend parts is deployed. Code of application is stored in the Docker images, which are located in the Elastic Container Registry.
+# Elastic Beanstalk and Fargate
+This project aims to create a certain AWS infrastructures via Terraform (infrastructure as code). Using Elastic Beanstalk or Elastic Container Service (Fargate) the application that consists of separate backend and frontend parts is deployed. Code of application is stored in the Docker images, which are located in the Elastic Container Registry.
 
 For demonstration of how the images are created, the frontend source code with Dockerfile and entrypoint.sh are present in this GitHub repo.
 The backend is a Spring Boot application - a simple Tic-Tac-Toe game.
