@@ -1,0 +1,12 @@
+### Terraform ###
+# Ignore Terraform related files and directories 
+.terraform
+*.tfstate
+*.tfstate.backup
+*.lock.hcl
+add-B
+add-ECS
+
+# Except for main.tf
+!/Beanstalk/main.tf
+!/Fargate/main.tf
